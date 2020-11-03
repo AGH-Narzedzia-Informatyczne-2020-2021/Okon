@@ -10,13 +10,12 @@ Nasze cele to:
   * zwiększy nasze umiejętności programowania w tym języku
   * będziemy mogli z dumą nazywać naszym pierwszym projektem
   
-Zadania_2:
+Zadania_2:  
+~~Utworzyć zepsół oraz tablice na trello~~  
+~~Dodać plik README~~  
+-[x]DONE  
 
-~~Utworzyć zepsół oraz tablice na trello~~
-~~Dodać plik README~~
--[x]DONE
-
-Memik dla przykucia uwagi!
+Memik dla przykucia uwagi!  
 ![GitHub Logo](/zdjecia/mem.jpg)
 
 
