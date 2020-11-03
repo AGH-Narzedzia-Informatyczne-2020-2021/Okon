@@ -13,7 +13,7 @@ Nasze cele to:
 Zadania_2:  
 ~~Utworzyć zepsół oraz tablice na trello~~  
 ~~Dodać plik README~~  
--[x]DONE  
+[x]DONE  
 
 Memik dla przykucia uwagi!  
 ![GitHub Logo](/zdjecia/mem.jpg)
