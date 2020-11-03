@@ -11,6 +11,7 @@ Nasze cele to:
   * będziemy mogli z dumą nazywać naszym pierwszym projektem
   
 Zadania_2:
+
 ~~Utworzyć zepsół oraz tablice na trello~~
 ~~Dodać plik README~~
 -[x]DONE
