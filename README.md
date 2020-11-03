@@ -19,4 +19,4 @@ Memik dla przykucia uwagi!
 ![GitHub Logo](/zdjecia/mem.jpg)
 
 
-**Mamy nadzieję, że projekt przykuł Twoją uwagę!**
+**Mamy nadzieję, że projekt przykuł Twoją uwagę!** :muscle:
