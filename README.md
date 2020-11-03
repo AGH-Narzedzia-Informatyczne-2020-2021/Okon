@@ -15,6 +15,8 @@ Zadania_2:
 ~~Dodać plik README~~  
 - [x] DONE  
 
+> Talk is cheap. Show me the code - Linus Torvalds
+
 Memik dla przykucia uwagi!  
 ![GitHub Logo](/zdjecia/mem.jpg)
 
