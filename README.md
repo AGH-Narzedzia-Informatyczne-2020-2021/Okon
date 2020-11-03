@@ -6,6 +6,7 @@ dwuwymiarowej gry platformowej w języku **Python** używając [Pygames](https:/
 Nasze cele to:
 * trening pracy grupowej
 * ćwiczenie swobodnego korzystania z systemu kontroli wersji
+* nauka języka Python
 * kreatywne wykorzystanie **Pythona** do stworzenia projektu, który:
   * zwiększy nasze umiejętności programowania w tym języku
   * będziemy mogli z dumą nazywać naszym pierwszym projektem
