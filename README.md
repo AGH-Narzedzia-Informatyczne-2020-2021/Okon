@@ -3,6 +3,12 @@
 Jesteśmy grupą *początkujących* programistów, którzy zdecydowali się podjąć wyzwania napisania prostej
 dwuwymiarowej gry platformowej w języku **Python** używając [Pygames](https://www.pygame.org/wiki/about)
 
+Nad projektem pracują:
+* Jakub Woźniak
+* Bartłomiej Łaciak 
+* Małgorzata Czarnecka
+* Konrad Bałabuszek
+
 Nasze cele to:
 * trening pracy grupowej
 * ćwiczenie swobodnego korzystania z systemu kontroli wersji
