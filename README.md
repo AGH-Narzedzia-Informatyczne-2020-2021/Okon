@@ -10,7 +10,9 @@ Nad projektem pracują:
 * Konrad Bałabuszek
 
 **Gists**  
-* Jakub Woźniak: [gist_1](https://gist.github.com/jwozniak2000/c458f9a7cb6dc23ad21dca230e4ed26f) [gist_2](https://gist.github.com/jwozniak2000/e2dcedbbedc0c928973ac726e52aa73f)
+* Jakub Woźniak: 
+  * [gist_1](https://gist.github.com/jwozniak2000/c458f9a7cb6dc23ad21dca230e4ed26f)
+  * [gist_2](https://gist.github.com/jwozniak2000/e2dcedbbedc0c928973ac726e52aa73f)
 
 Nasze cele to:
 * trening pracy grupowej
