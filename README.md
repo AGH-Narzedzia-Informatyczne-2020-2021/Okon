@@ -1,7 +1,7 @@
 # Grupa Okon
 
 Jesteśmy grupą *początkujących* programistów, którzy zdecydowali się podjąć wyzwania napisania prostej
-dwuwymiarowej gry platformowej w języku **Python** używając [Pygames](https://www.pygame.org/wiki/about)
+dwuwymiarowej gry w stylu Space Invaders w języku **Python** używając [Pygames](https://www.pygame.org/wiki/about)
 
 Nad projektem pracują:
 * Jakub Woźniak
