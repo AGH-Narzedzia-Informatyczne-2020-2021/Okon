@@ -13,6 +13,8 @@ Nad projektem pracują:
 * Jakub Woźniak: 
   * [gist_1](https://gist.github.com/jwozniak2000/c458f9a7cb6dc23ad21dca230e4ed26f)
   * [gist_2](https://gist.github.com/jwozniak2000/e2dcedbbedc0c928973ac726e52aa73f)
+ *Gosia:
+  * [gist-1]("https://gist.github.com/GCzarnecka/86328261457ebdc8db7bcb0472a9951d.js")
 
 Nasze cele to:
 * trening pracy grupowej
