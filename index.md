@@ -4,6 +4,7 @@
 * Małgorzata Czarnecka
 * Konrad Bałabuszek
 * Bartłomiej Łaciak
+
 ---
 ## Narzędzia z których korzystamy
 1. [Slack](https://slack.com/intl/en-pl/)
