@@ -13,6 +13,9 @@ Nad projektem pracują:
 * Jakub Woźniak: 
   * [gist_1](https://gist.github.com/jwozniak2000/c458f9a7cb6dc23ad21dca230e4ed26f)
   * [gist_2](https://gist.github.com/jwozniak2000/e2dcedbbedc0c928973ac726e52aa73f)
+* Konrad Bałabuszek: 
+  * [gist_1](https://gist.github.com/sn3ak1/0dda1d02968d58739837bb94fa74b512)
+  * [gist_2](https://gist.github.com/sn3ak1/7de48fd2db2fb6c8fb8f8d83f072ae84)
 
 Nasze cele to:
 * trening pracy grupowej
