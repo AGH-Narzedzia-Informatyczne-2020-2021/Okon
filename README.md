@@ -16,6 +16,9 @@ Nad projektem pracują:
 * Konrad Bałabuszek: 
   * [gist_1](https://gist.github.com/sn3ak1/0dda1d02968d58739837bb94fa74b512)
   * [gist_2](https://gist.github.com/sn3ak1/7de48fd2db2fb6c8fb8f8d83f072ae84)
+* Bartłomiej Łaciak:
+  * [gist_1](https://gist.github.com/BartlomiejLac/8cc70320007576b2d07db669f677f16b)
+  * [gist_2](https://gist.github.com/BartlomiejLac/5934adc8e659d8585cca582084aa5341)
 
 Nasze cele to:
 * trening pracy grupowej
