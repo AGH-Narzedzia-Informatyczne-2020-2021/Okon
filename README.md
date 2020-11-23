@@ -19,7 +19,8 @@ Nad projektem pracują:
 * Bartłomiej Łaciak:
   * [gist_1](https://gist.github.com/BartlomiejLac/8cc70320007576b2d07db669f677f16b)
   * [gist_2](https://gist.github.com/BartlomiejLac/5934adc8e659d8585cca582084aa5341)
-
+* Gosia Czarnecka:
+  * [gist_1]("https://gist.github.com/GCzarnecka/86328261457ebdc8db7bcb0472a9951d)
 Nasze cele to:
 * trening pracy grupowej
 * ćwiczenie swobodnego korzystania z systemu kontroli wersji
