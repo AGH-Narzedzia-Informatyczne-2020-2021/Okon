@@ -74,3 +74,10 @@ Nasz projekt jest zbiorem 4 bardzo prostych, a jednocześnie ciekawych gierek, d
 ## Udało nam się zdobyc opinie na temat naszego projektu, oto wyniki: 
 
 ![Wykres](wykres.png)
+
+## A tutaj mały spoiler interfejsu graficznego jednej gier :smiley:  
+
+![Trex](trex.png)
+
+
+# **Miłego grania!!**
