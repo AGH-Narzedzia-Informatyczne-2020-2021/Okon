@@ -8,7 +8,8 @@ from menu import *
 class Game():
     def __init__(self):
         pygame.init()
-        self.running, self.playing = True, False
+        self.running = True
+        self.playing = 0
         self.UP_KEY, self.DOWN_KEY, self.START_KEY, self.BACK_KEY = False, False, False, False
         self.DISPLAY_W, self.DISPLAY_H = 800, 600
         self.display = pygame.Surface((self.DISPLAY_W, self.DISPLAY_H))
@@ -17,16 +18,16 @@ class Game():
         # self.font_name = pygame.font.get_default_font()
         self.BLACK, self.WHITE = (0, 0, 0), (255, 255, 255)
         self.main_menu = MainMenu(self)
-        self.options = OptionsMenu(self)
-        self.credits = CreditsMenu(self)
         self.curr_menu = self.main_menu
 
     def game_loop(self):
-        while self.playing:
-            game.snake_game()
-            # flappy_bird.flappy_game()
-            # space_invaders_game.space_invaders_game()
-            # trex.trex_game()
+        while True:
+            if self.playing == 1:
+                flappy_bird.flappy_game()
+            if self.playing == 2:
+                trex.trex_game()
+            if self.playing == 3:
+                space_invaders_game.space_invaders_game()
 
     def check_events(self):
         for event in pygame.event.get():
