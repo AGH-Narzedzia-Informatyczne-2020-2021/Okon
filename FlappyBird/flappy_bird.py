@@ -134,8 +134,7 @@ def flappy_game(main_game):
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                main_game.playing = 0
-                break
+                quit()
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     main_game.playing = 0

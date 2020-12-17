@@ -62,11 +62,13 @@ def snake_game(main_game):
 
             while game_close == True:
                 dis.fill(blue)
-                message("You Lost! Press C-Play Again or Q-Quit", red)
+                message("Press to C-Play Again or ESC to go back", red)
                 Your_score(Length_of_snake - 1)
                 pygame.display.update()
 
                 for event in pygame.event.get():
+                    if event.type == pygame.QUIT:
+                        quit()
                     if event.type == pygame.KEYDOWN:
                         if event.key == pygame.K_ESCAPE:
                             main_game.playing = 0
@@ -83,7 +85,7 @@ def snake_game(main_game):
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
-                    game_over = True
+                    quit()
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_LEFT:
                         x1_change = -snake_block

@@ -94,6 +94,7 @@ def trex_game(main_game):
                     break
             if event.type==QUIT:
                 pygame.quit()
+                quit()
 
         if main_game.playing == 0:
             pygame.display.set_mode((800, 600))

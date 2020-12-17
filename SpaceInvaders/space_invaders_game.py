@@ -108,7 +108,7 @@ def space_invaders_game(main_game):
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                running = False
+                quit()
 
             # we are checking whether any key is pressed
             if event.type == pygame.KEYDOWN:

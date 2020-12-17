@@ -5,7 +5,7 @@ from TrexGame import trex
 from menu import *
 
 
-class Game():
+class Game:
     def __init__(self):
         pygame.init()
         self.running = True
@@ -13,9 +13,8 @@ class Game():
         self.UP_KEY, self.DOWN_KEY, self.START_KEY, self.BACK_KEY = False, False, False, False
         self.DISPLAY_W, self.DISPLAY_H = 800, 600
         self.display = pygame.Surface((self.DISPLAY_W, self.DISPLAY_H))
-        self.window = pygame.display.set_mode(((self.DISPLAY_W, self.DISPLAY_H)))
+        self.window = pygame.display.set_mode((self.DISPLAY_W, self.DISPLAY_H))
         self.font_name = 'Font/8-BIT WONDER.TTF'
-        # self.font_name = pygame.font.get_default_font()
         self.BLACK, self.WHITE = (0, 0, 0), (255, 255, 255)
         self.main_menu = MainMenu(self)
         self.curr_menu = self.main_menu
@@ -26,27 +25,28 @@ class Game():
                 flappy_bird.flappy_game(self)
             if self.playing == 2:
                 trex.trex_game(self)
-                # game.snake_game(self)
             if self.playing == 3:
                 space_invaders_game.space_invaders_game(self)
+            if self.playing == 4:
+                game.snake_game(self)
+            if self.playing == 5:
+                quit()
 
     def check_events(self):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                self.running, self.playing = False, 0
+                self.running, self.playing = False, False
                 self.curr_menu.run_display = False
+                quit()
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RETURN:
                     self.START_KEY = True
                 if event.key == pygame.K_BACKSPACE:
                     self.BACK_KEY = True
-                    self.playing = 0
                 if event.key == pygame.K_DOWN:
                     self.DOWN_KEY = True
                 if event.key == pygame.K_UP:
                     self.UP_KEY = True
-                if event.key == pygame.K_ESCAPE:
-                    self.playing = 0
 
     def reset_keys(self):
         self.UP_KEY, self.DOWN_KEY, self.START_KEY, self.BACK_KEY = False, False, False, False
