@@ -55,3 +55,15 @@ clock.tick(20)
 
 pygame.quit ()  
 ```
+
+
+
+# Streszczenie dokumentacji projektu
+Nasz projekt jest zbiorem 4 bardzo prostych, a jednocześnie ciekawych gierek, do których umożliwiamy łatwy dostęp poprzez przystępne menu, które wygląda w ten oto sposób:
+![Menu](menu.png)
+
+### Gry w jakie użytkownik jest w stanie zagrać:  
+1. Flappy Bird
+2. Snake
+3. Trex
+4. Space Invaders
