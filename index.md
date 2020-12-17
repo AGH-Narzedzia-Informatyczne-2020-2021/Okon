@@ -61,7 +61,8 @@ pygame.quit ()
 
 
 # Streszczenie dokumentacji projektu
-Nasz projekt jest zbiorem 4 bardzo prostych, a jednocześnie ciekawych gierek, do których umożliwiamy łatwy dostęp poprzez przystępne menu, które wygląda w ten oto sposób:
+Nasz projekt jest zbiorem 4 bardzo prostych, a jednocześnie ciekawych gierek, do których umożliwiamy łatwy dostęp poprzez przystępne menu, które wygląda w ten oto sposób:  
+
 ![Menu](menu.png)
 
 ### Gry w jakie użytkownik jest w stanie zagrać:  
@@ -69,3 +70,7 @@ Nasz projekt jest zbiorem 4 bardzo prostych, a jednocześnie ciekawych gierek, d
 2. Snake
 3. Trex
 4. Space Invaders
+
+## Udało nam się zdobyc opinie na temat naszego projektu, oto wyniki: 
+
+![Wykres](wykres.png)
