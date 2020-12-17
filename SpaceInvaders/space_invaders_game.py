@@ -4,6 +4,7 @@ import math
 from pygame import mixer
 import os
 
+bullet_state = "ready"
 
 def space_invaders_game():
     # Initialize the pygame
@@ -56,7 +57,7 @@ def space_invaders_game():
     bulletY = 480
     # bulletX_change = 0
     bulletY_change = 4
-    bullet_state = "ready"
+    global bullet_state
 
     # Score
 
