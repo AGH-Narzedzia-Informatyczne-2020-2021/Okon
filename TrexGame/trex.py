@@ -3,7 +3,7 @@ import os
 from pygame.locals import *
 
 
-def trex_game():
+def trex_game(main_game):
     pygame.init()
     vec = pygame.math.Vector2
     HEIGHT=480
@@ -88,9 +88,17 @@ def trex_game():
     timevec2=1052
     while True:
         for event in pygame.event.get():
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_ESCAPE:
+                    main_game.playing = 0
+                    break
             if event.type==QUIT:
                 pygame.quit()
-                sys.exit()
+
+        if main_game.playing == 0:
+            pygame.display.set_mode((800, 600))
+            break
+
         timevec-=6
         timevec2-=6
         czas+=6
@@ -99,9 +107,9 @@ def trex_game():
         if timevec2 <= -1052:
             timevec2 = 1052
         if czas >= 586 and czas <= 618 and P1.pos.y>390:
-            pygame.display.quit()
-            pygame.quit()
-            sys.exit()
+            main_game.playing = 0
+            pygame.display.set_mode((800, 600))
+            break
         if czas >= 704:
             czas = czas-320
         displaysurface.blit(TLO, (timevec,0))

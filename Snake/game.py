@@ -2,7 +2,7 @@ import pygame
 import time
 import random
 
-def snake_game():
+def snake_game(main_game):
     pygame.init()
 
     white = (255, 255, 255)
@@ -68,11 +68,18 @@ def snake_game():
 
                 for event in pygame.event.get():
                     if event.type == pygame.KEYDOWN:
+                        if event.key == pygame.K_ESCAPE:
+                            main_game.playing = 0
+                            break
                         if event.key == pygame.K_q:
                             game_over = True
                             game_close = False
+                            pygame.quit()
+                            quit()
                         if event.key == pygame.K_c:
                             gameLoop()
+                if main_game.playing == 0:
+                    break
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -90,6 +97,13 @@ def snake_game():
                     elif event.key == pygame.K_DOWN:
                         y1_change = snake_block
                         x1_change = 0
+                    elif event.key == pygame.K_ESCAPE:
+                        main_game.playing = 0
+                        break
+
+            if main_game.playing == 0:
+                pygame.display.set_mode((800, 600))
+                break
 
             if x1 >= dis_width or x1 < 0 or y1 >= dis_height or y1 < 0:
                 game_close = True
@@ -119,7 +133,4 @@ def snake_game():
                 Length_of_snake += 1
 
             clock.tick(snake_speed)
-
-        pygame.quit()
-        quit()
     gameLoop()

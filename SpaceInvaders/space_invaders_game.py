@@ -6,7 +6,7 @@ import os
 
 bullet_state = "ready"
 
-def space_invaders_game():
+def space_invaders_game(main_game):
     # Initialize the pygame
     pygame.init()
 
@@ -112,6 +112,9 @@ def space_invaders_game():
 
             # we are checking whether any key is pressed
             if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_ESCAPE:
+                    main_game.playing = 0
+                    break
                 if event.key == pygame.K_LEFT:
                     playerX_change = -3
                 if event.key == pygame.K_RIGHT:
@@ -126,6 +129,11 @@ def space_invaders_game():
             if event.type == pygame.KEYUP:
                 if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
                     playerX_change = 0
+
+        if main_game.playing == 0:
+            mixer.music.stop()
+            pygame.display.set_mode((800, 600))
+            break
 
         # Player movement and boundaries
         playerX += playerX_change

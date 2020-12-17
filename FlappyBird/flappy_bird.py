@@ -9,7 +9,8 @@ score = 0
 high_score = 0
 can_score = True
 
-def flappy_game():
+
+def flappy_game(main_game):
 
     def draw_floor():
         screen.blit(floor_surface, (floor_x_pos, 900))
@@ -133,9 +134,12 @@ def flappy_game():
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
+                main_game.playing = 0
+                break
             if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_ESCAPE:
+                    main_game.playing = 0
+                    break
                 if event.key == pygame.K_SPACE and game_active:
                     bird_movement = 0
                     bird_movement -= 12
@@ -157,6 +161,10 @@ def flappy_game():
                     bird_index = 0
 
                 bird_surface, bird_rect = bird_animation()
+
+        if main_game.playing == 0:
+            pygame.display.set_mode((800, 600))
+            break
 
         screen.blit(bg_surface, (0, 0))
 
