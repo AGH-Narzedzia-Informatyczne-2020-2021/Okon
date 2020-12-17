@@ -88,8 +88,8 @@ while True:
         if event.type==QUIT:
             pygame.quit()
             sys.exit()
-    timevec-=6
-    timevec2-=6
+    timevec-=4
+    timevec2-=4
     czas+=6
     if timevec <= -1052:
         timevec = 1052
