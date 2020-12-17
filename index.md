@@ -75,7 +75,7 @@ Nasz projekt jest zbiorem 4 bardzo prostych, a jednocześnie ciekawych gierek, d
 
 ![Wykres](wykres.png)
 
-## A tutaj mały spoiler interfejsu graficznego jednej gier :smiley:  
+## A tutaj mały spoiler interfejsu graficznego jednej z gier :smiley:  
 
 ![Trex](trex.png)
 
