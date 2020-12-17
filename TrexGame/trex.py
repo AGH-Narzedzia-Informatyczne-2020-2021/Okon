@@ -32,7 +32,7 @@ def trex_game(main_game):
         def move(self):
             self.acc = vec(0,0)
             pressed_keys = pygame.key.get_pressed()
-            if pressed_keys[K_UP] and self.pos.y == 448:
+            if (pressed_keys[K_UP] or pressed_keys[K_SPACE]) and self.pos.y == 448:
                 pygame.mixer.music.load(os.path.join(sourceFileDir,'resources','jump.wav'))
                 pygame.mixer.music.play(0)
                 self.vel.y = -8
